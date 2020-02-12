@@ -1,0 +1,13 @@
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #fff;
+    height: 700px;
+    color: black;
+    border-radius: 10px;
+      border:solid;
+  }
+
+.aligncenter{
+    text-align: center;
+}

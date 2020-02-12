@@ -1,0 +1,38 @@
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #fff;
+  height: 700px;
+  color: black;
+  border-radius: 10px;
+	border:solid;
+}
+
+
+.navimg{
+    padding-top: 15px;
+	text-align: center;
+}
+
+.sectionalign{
+    text-align: center;
+    margin: 20px;
+
+}
+
+#knapdecoration {
+	text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: black;
+    border: none;
+    height:70px;
+    width:270px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
