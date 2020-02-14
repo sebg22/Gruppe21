@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="instillinger.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="mobile-container slidecontainer">
+    <section class="aligncenter">
+      <h1>Elevens indstillinger</h1>
+      <p>Temperature</p>
+      <input type="range" min="10" max="30" value="23" class="demo" id="myRange">
+      <p>grader: <span id="demo"></span></p>  
+    </section>
+    <section class="aligncenter">
+      <p>Humidity</p>
+      <input type="range" min="0" max="100" value="50" class="demo2" id="myRange2">
+      <p>%: <span id="demo2"></span></p>  
+    </section>
+    <section class="aligncenter">
+      <p>Light</p>
+      <input type="range" min="0" max="100" value="50" class="demo3" id="myRange3">
+      <p>%: <span id="demo3"></span></p>  
+    </section>
+    <section class="aligncenter">
+      <button class ="knapmargin colorChanger" onClick="changeColor()"><h5>Tænd</h5></button>
+    </section>
+    </div>
+  </div>
+
+
+<script src="instillinger.js"></script>
+</body>
+</html>
